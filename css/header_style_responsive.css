@@ -1,0 +1,43 @@
+/*@media screen and (min-width: 750px) and (max-width: 1200px) {
+	#nav .content .container-prLink
+	{
+		width: 100%;
+		text-align:center;
+	}
+	#nav .content .container-prLink ul li
+	{
+		padding-left: 0px;
+	}
+	#nav .content .container-prLink ul li:before
+	{
+		content: initial;
+	}
+	#nav .content .container-contentLink
+	{
+		
+		display: none;
+	}
+}*/
+@media screen and (min-width: 1200px) {
+
+	#nav-btn-mobile,
+	#nav-mobile
+	{
+		display: none;
+	}	
+}
+@media screen and (max-width: 1200px) {
+	#nav-btn,
+	#nav,
+	#header-desktop .container-rs
+	{
+		display: none;
+	}
+
+	#nav-btn-mobile,
+	#nav-mobile
+	{
+		display: block;
+	}	
+
+}
