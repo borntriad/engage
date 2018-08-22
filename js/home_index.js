@@ -132,6 +132,7 @@ var pageintro = function(){
             for(var i=0; i<char.length; i++){
                   $('.intro-text-1 h1').append('<span class="char">'+char[i]+'</span>');
             }  
+            $('.intro-text-1 h1').css('opacity',1)
             setTimeout(function(){
                   $('.intro-text-1 h1 span:nth-child(1)').addClass('active')
             },100)
@@ -376,8 +377,34 @@ $(window).on('load', function () {
       //initCoverCaroussel();
 
       $window = $(window);
+      var windowHeight;
 
-      var windowHeight = $window.height() / 2;
+      if($window.width() < 767){
+            windowHeight = $window.height();
+      }else{
+            windowHeight = $window.height() / 2;
+      }
+
+      $window.resize(function(){
+            if($window.width() < 767){
+                  windowHeight = $window.height()-50;
+            }else{
+                  windowHeight = $window.height() / 2;
+            }  
+      });
+
+      if($window.width() <= 375){
+            $('#section-contact').addClass('reach')
+            $('.section').addClass('reach')
+      }
+
+      $window.resize(function(){
+            if($window.width() <= 375){
+                  $('#section-contact').addClass('reach')
+                  $('.section').addClass('reach')
+            }  
+      });
+      
 
 
       var distanceSectionContact = $('#section-contact').offset().top - windowHeight;
@@ -429,25 +456,7 @@ $(window).on('load', function () {
                   if (!$('#section-pr-6 .container-el .el:nth-child(1)').hasClass('reach')) {
                         $('#section-pr-6 .container-el .el:nth-child(1)').addClass('reach');
                   };
-            };
-            /* if ($window.scrollTop() >= distanceEl6) {
-                  if (!$('#section-deployment .container-el .el:nth-child(2)').hasClass('reach')) {
-                        $('#section-deployment .container-el .el:nth-child(2)').addClass('reach');
-                  };
-            }; */
-
-            /* if ($window.scrollTop() >= distanceSectionDP) {
-                  if (!$('#section-deployment .container-el .el:nth-child(2)').hasClass('reach')) {
-                        $('#section-deployment .container-el .el:nth-child(2)').addClass('reach');
-                  };
-            }; */
-
-           /*  if ($window.scrollTop() >= distanceSectionTeam) {
-                  if (!$('#section-team').hasClass('reach')) {
-                        $('#section-team').addClass('reach');
-                        sectionTeamCarousselInit();
-                  };
-            }; */
+            }; 
 
             if ($window.scrollTop() + $window.height() == $(document).height()) {
                   if (!$('#section-sponsors').hasClass('reach')) {

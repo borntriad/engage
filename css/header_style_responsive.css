@@ -45,7 +45,7 @@
 	#nav-btn-mobile,
 	#nav-mobile	{
 		display: block;
-	}	  
+	}	   
 }
 
 @media screen and (max-width: 1024px) {
@@ -55,10 +55,17 @@
 @media screen and (max-width: 767px) {
 	.logo-born{max-width: 93px;}
 	.logo-triad{max-width: 95px;}
-	.logo-header{    padding: 5px 5px 5px 5px;	}
+      .logo-header{    padding: 5px 5px 5px 5px;}
+      .logo-header.h-scroll{background: #1784bb;}
+      .mouse{ display: none !important}
+      
+     
 }
 @media screen and (max-width: 480px) {
 	.logo-born{max-width: 75px;}
 	.logo-triad{max-width: 90px;}
-	.logo-header{    padding: 5px 7px 5px 7px;	}
+      .logo-header{    padding: 5px 7px 5px 7px;	}
+      #section-sponsors{ height: 360px;!important}
+      #section-sponsors .container-li .li-el .el{ height: 60px;!important}
+      #section-sponsors .container-li{ top: 40% !important}
 }

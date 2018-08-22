@@ -448,7 +448,7 @@
       display:flex;
       justify-content: space-between;
 	  width: 100%;
-	  background: #1784bb;
+	  
 	  padding: 0px 5px 5px 5px;
 }
 .logo-header img{
@@ -517,6 +517,7 @@
       font-size: 40px;
       font-family: roboto;
       font-weight: 700;
+      opacity: 0;
 }
 
 .intro-text-2 {
