@@ -52,13 +52,43 @@
 	.logo-header{    padding: 5px 5px 7px 5px;	}
 }
 
+.bn-mobile{
+      display: none !important
+}
+.bn-desk{
+      display: block !important
+}
+.bn-desk-in{
+      display: inline-block !important
+}
+
 @media screen and (max-width: 767px) {
 	.logo-born{max-width: 93px;}
 	.logo-triad{max-width: 95px;}
       .logo-header{    padding: 5px 5px 5px 5px;}
       .logo-header.h-scroll{background: #1784bb;}
       .mouse{ display: none !important}
-      
+      .bn-mobile{
+            display: block !important
+      }
+      .bn-desk{
+            display: none !important
+      }
+      .section-pr-el .container-el .el.bn-mobile{
+            padding: 0 0 20px 0 !important
+      }
+      .bn-desk-in{
+            display: none !important
+      }
+      .section{ padding-top:8% !important }
+      .section .container-el .el h3 {
+            display: inline-block !important;
+            color: #363F54 !important;
+            font-family: National-Bold !important;
+            font-size: 42px !important;
+            line-height: 51px !important;
+            position: relative !important; 
+        }
      
 }
 @media screen and (max-width: 480px) {
