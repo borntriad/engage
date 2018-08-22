@@ -198,12 +198,18 @@
     opacity: 1;
 }
 #section-home .container-caroussel .container-bg .bg {
-    background-color: -webkit-gradient(linear, left top, right top, from(#151515), to(#282828));
+    /* background-color: -webkit-gradient(linear, left top, right top, from(#151515), to(#282828));
     background-color: -webkit-linear-gradient(left, #151515 0%, #282828 100%);
     background-color: -o-linear-gradient(left, #151515 0%, #282828 100%);
-    background-color: linear-gradient(90deg, #151515 0%, #282828 100%);
+    background-color: linear-gradient(90deg, #151515 0%, #282828 100%); */
+    background: -webkit-gradient(linear, left top, right top, from(#151515), to(#282828));
+    background: -webkit-linear-gradient(left, #151515 0%, #282828 100%);
+    background: -o-linear-gradient(left, #151515 0%, #282828 100%);
+    background: linear-gradient(90deg, #151515 0%, #282828 100%);
     background-image:url(../img/born-bg.jpg);
+    background-repeat: no-repeat
     background-size: cover; 
+    background-position: center;
 } 
 .bg.bg-qonto.show:after { 
       background: -webkit-gradient(linear, left top, right top, from(#0089cf), color-stop(37.02%, #1ca3e8), to(#00bfe6));

@@ -22,7 +22,8 @@
 @media screen and (max-width: 1360px) {
 	.logo-header{
 		width: 100%;
-    max-width: 1360px;
+	max-width: 1360px;	
+	padding-top: 5px;
 	}
 }
 @media screen and (min-width: 1200px) {
@@ -45,4 +46,19 @@
 	#nav-mobile	{
 		display: block;
 	}	  
+}
+
+@media screen and (max-width: 1024px) {
+	.logo-header{    padding: 5px 5px 7px 5px;	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo-born{max-width: 93px;}
+	.logo-triad{max-width: 95px;}
+	.logo-header{    padding: 5px 5px 5px 5px;	}
+}
+@media screen and (max-width: 480px) {
+	.logo-born{max-width: 75px;}
+	.logo-triad{max-width: 90px;}
+	.logo-header{    padding: 5px 7px 5px 7px;	}
 }

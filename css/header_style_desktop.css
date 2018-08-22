@@ -447,7 +447,9 @@
       z-index: 99;
       display:flex;
       justify-content: space-between;
-      width: 100%
+	  width: 100%;
+	  background: #1784bb;
+	  padding: 0px 5px 5px 5px;
 }
 .logo-header img{
       width: 100%

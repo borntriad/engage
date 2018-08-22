@@ -190,8 +190,10 @@
 		min-height: 650px;
 	}
 	#section-home .container-caroussel{
-		min-height: 500px;
+		min-height: 650px;
+		/* height: 65vh; */
 	}
+	/* .container-el.el-ly .el .container-illu{    height: 27vw;} */
 }
 
 @media screen and (max-width: 970px) {
@@ -214,9 +216,8 @@
 		margin-bottom: 50px;
 	}
 	
-	#section-home .container-caroussel
-	{
-		min-height: auto;
+	#section-home .container-caroussel{
+		/* min-height: auto; */
 		margin-bottom: 20px;
 		padding: 170px 0px 50px 0px;
 	}
@@ -358,10 +359,11 @@
 		margin-top: 40px;
 	}
 
-	.container-el.el-ly .el .container-illu
-	{
-		height: 227px;
-		width: 339px;
+	.container-el.el-ly .el .container-illu	{
+		/* height: 227px;
+		width: 339px; */
+		height: 28vw;
+    	width: 50%;
 		max-width: 100%;
 		margin: auto;
 	}
@@ -483,9 +485,9 @@
 	/* LE COLLECTIONIST */
 
 	.section-pr-el .container-el .el.el-lecollectionist .wrapper .container-img img {
-	    width: auto;
+	    /* width: auto;
 	    max-height: 100%;
-	    max-width: 100%;
+	    max-width: 100%; */
 	}
 	/* END LE COLLECTIONIST */
 	/* LE QONTO */
@@ -703,13 +705,13 @@
 	.section-pr-el .container-el .el.reach .wrapper .container-img.award{left: 50%;    transform: translateX(-50%);}
 }
 @media screen and (max-width: 680px) {
-	#section-sponsors{
+	/* #section-sponsors{
 		height: 950px;
-	}
-	#section-sponsors .container-li .li-el .el{
+	} */
+	/* #section-sponsors .container-li .li-el .el{
 		height: 80px;
 		width: 300px;
-	}
+	} */
 }
 @media screen and (max-width: 480px) {
 	.qa-copy{font-size: 3.7vw;}
@@ -718,13 +720,13 @@
 	#section-contact .container-text p{font-size: 3.7vw;}
 	.section-pr-el .container-el .el .wrapper .container-text > p{font-size: 3.7vw;}	
 	.intro-text-2 h1 {font-size: 7vw;	}
-	#section-sponsors{
+	/* #section-sponsors{
 		height: 800px;
-	}
-	#section-sponsors .container-li .li-el .el{
+	} */
+	/* #section-sponsors .container-li .li-el .el{
 		height: 80px;
 		width: 200px;
-	}
+	} */
 }
 @media only screen 
 and (min-device-width : 375px) 

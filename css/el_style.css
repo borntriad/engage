@@ -371,9 +371,9 @@
 {
 	right: 0px;
 	top: -40px;
-	-webkit-transform: translateZ(0) translateX(50%) rotateY(180deg);
-	    -ms-transform: translateZ(0) translateX(50%) rotateY(180deg);
-	        transform: translateZ(0) translateX(50%) rotateY(180deg);
+	-webkit-transform: translateZ(0) translateX(21%) rotateY(180deg);
+	    -ms-transform: translateZ(0) translateX(21%) rotateY(180deg);
+	        transform: translateZ(0) translateX(21%) rotateY(180deg);
 }
 .container-el.el-ly .el.el-qonto .container-illu .bubble-group g > *
 {
