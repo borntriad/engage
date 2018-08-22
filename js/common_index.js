@@ -303,7 +303,7 @@ $( window ).resize(function() {
 	var newURL = myUrl.replace("#delay","");
 	history.pushState(null, null, newURL);
 	/* END REMOVE DELAY */
-}
+});
 
 
 
