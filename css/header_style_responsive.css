@@ -94,7 +94,7 @@
 @media screen and (max-width: 480px) {
 	.logo-born{max-width: 75px;}
 	.logo-triad{max-width: 90px;}
-      .logo-header{    padding: 5px 7px 5px 7px;	}
+      .logo-header{    padding: 5px 7px 5px 7px; background: #1C89C0;	}
       #section-sponsors{ height: 360px;!important}
       #section-sponsors .container-li .li-el .el{ height: 60px;!important}
       #section-sponsors .container-li{ top: 40% !important}
